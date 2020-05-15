@@ -1,0 +1,17 @@
+{
+  "name": "namecheap-domain-sniper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@rqt/namecheap": "^2.4.2",
+    "dotenv": "^8.2.0",
+    "twilio": "^3.39.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wallop",
+  "license": "MIT"
+}

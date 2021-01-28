@@ -1,3 +1,6 @@
+import { createRequire } from 'module';  //added for new version of node
+const require = createRequire(import.meta.url);
+
 require('dotenv').config();
 
 import NameCheap from '@rqt/namecheap';
